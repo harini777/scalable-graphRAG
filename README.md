@@ -101,8 +101,3 @@ pytest tests/
 
 ---
 
-## 5. Next Steps (Build Plan Roadmap)
-- [x] **Phase 1 (Weeks 1-2)**: Data ingestion, Plain RAG baseline, frozen evaluation harness, baseline numbers logged.
-- [ ] **Phase 2 (Weeks 3-4)**: Structured LLM extraction (schema test on 500 papers), entity resolution (alias normalization), and graph loading.
-- [ ] **Phase 3 (Weeks 5-6)**: Hybrid retrieval (vector entry points + graph expansion), Cross-Encoder reranker, query router, and 4-system head-to-head comparison.
-- [ ] **Phase 4 (Week 7)**: Vector search at scale study (HNSW tuning, SQ8, and binary quantization across 10K to 1M vectors).
