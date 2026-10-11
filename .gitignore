@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets
+.env
+*.env.local
+
+# Large datasets & raw downloads (keep sample data only)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+data/indices/*
+!data/indices/.gitkeep
+*.faiss
+*.bin
+*.pt
+*.parquet
+*.jsonl.gz
+
+# Evaluation & experiment output runs
+eval_runs/*
+experiments_output/*
+
+# IDE and OS
+.DS_Store
+.vscode/
+.idea/
+*.log
